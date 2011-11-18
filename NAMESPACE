@@ -1,0 +1,5 @@
+export(areaPoly)export(check.state)export(choropleth.plot)export(choropleth)export(choropleth.spplot)export(city)export(county)export(demographics)export(install.blk)export(install.blkgrp)export(install.tract)export(MSA)export(nameTofips)
+
+import(sp)
+import(maptools)
+
