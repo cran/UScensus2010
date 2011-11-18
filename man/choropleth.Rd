@@ -62,8 +62,8 @@ choropleth(oregon.county10,"P0010001",color = list(fun = "rainbow", attr = list(
 
 ###Using spplot
 choropleth(oregon.county10,"P0010001",main="2010 Counties \n Oregon",border="transparent",type="spplot")
-
 }
+
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

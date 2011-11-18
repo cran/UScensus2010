@@ -20,7 +20,7 @@ dem.fun <- function(dem, state, level) {
             data(list = x, envir = parent.frame())
             temp <- get(x)
             out <- temp@data[,dem]
-            out<-matrix(out,nr=NROW(temp@data),nc=length(dem))
+            out<-matrix(out,nrow=NROW(temp@data),ncol=length(dem))
             ifelse(level=="cdp",rownames(out)<-temp$nameAlevel,rownames(out)<-temp$fips)
             colnames(out)<-dem
             out
@@ -34,12 +34,12 @@ if(level!="msa"){
 
 
      if(level=="county"){
-		out<-as.matrix(temp@data[,dem],nr=NROW(temp@data),nc=length(dem))
+		out<-as.matrix(temp@data[,dem],nrow=NROW(temp@data),ncol=length(dem))
 		rownames(out)<-temp$NAMELSAD10
 		colnames(out)<-dem	
      }else if (level == "msa") {
             temp <- MSA(msaname = msaname, state = toupper(state2),level = "county")
-            out<-as.matrix(temp@data[,dem],nr=NROW(temp@data),nc=length(dem))
+            out<-as.matrix(temp@data[,dem],nrow=NROW(temp@data),ncol=length(dem))
 			rownames(out)<-temp$NAMELSAD10
 			colnames(out)<-dem				
         }else if (level == "tract") {

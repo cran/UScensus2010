@@ -2,7 +2,7 @@
 \alias{install.county}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Installer for the UScensus2010tract package.
+Installer for the UScensus2010county package.
 }
 \description{
 Convenient installer for the UScensus2010 package. Warning this installs from the source file for OS X and Linux and can take several minutes. Windows install only available for 2.11+ at this time.%Only 32 bit windows build available at this time.

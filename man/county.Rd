@@ -51,8 +51,8 @@ Bureau, 2011. \cr
 
 %%\seealso{}
 \examples{
-#### look at the counties of Oregon
 \dontrun{
+#### look at the counties of Oregon
 data(countyfips)
 countyfips[countyfips$statename=="oregon",]
 

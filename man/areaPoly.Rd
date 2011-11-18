@@ -52,8 +52,8 @@ den00<-oregon.county10$P0010001/areaPoly(oregon.county10)
 oregon.county10$den00<-den00
 
 choropleth(oregon.county10,"den00",color = list(fun = "rainbow", attr = list(4)),main="2010 US Counties \n Oregon",type="plot",border="transparent")
-
 }
+
 
 
 
