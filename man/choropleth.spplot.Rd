@@ -8,7 +8,19 @@ Internal Function
 For use internally.
 }
 \usage{
-choropleth.spplot(sp, dem = "P0010001", cuts = list("quantile", seq(0, 1, 0.25)), color = list(fun = "hsv", attr = list(h = c(0.4, 0.5, 0.6, 0.7), s = 0.6, v = 0.6, alpha = 1)), main = NULL, sub = "Quantiles (equal frequency)", legend = list(pos = "bottomleft", title = "Population Count"), border = "transparent", object = NULL, ...)
+choropleth.spplot(sp, dem = "P0010001", 
+
+cuts = list("quantile", seq(0, 1, 0.25)), 
+
+color = list(fun = "hsv", 
+
+attr = list(h = c(0.4, 0.5, 0.6, 0.7), s = 0.6, v = 0.6, alpha = 1)), 
+
+main = NULL, sub = "Quantiles (equal frequency)", 
+
+legend = list(pos = "bottomleft", 
+
+title = "Population Count"), border = "transparent", object = NULL, ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -44,7 +56,7 @@ choropleth.spplot(sp, dem = "P0010001", cuts = list("quantile", seq(0, 1, 0.25))
 }
 }
 \references{
-Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{http://www.jstatsoft.org/v37/i06/}. 
+Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{https://www.jstatsoft.org/v37/i06/}. 
 }
 \author{
 Zack W Almquist

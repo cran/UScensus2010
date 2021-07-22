@@ -13,7 +13,7 @@ city<-function (name = NULL, state = NULL, statefips = FALSE, sp.object = NULL, 
             assign(paste(state, ".cdp10", sep = ""), sp.object)
         }
         else {
-            data(list = paste(state, ".cdp10", sep = ""), envir = parent.frame())
+            utils::data(list = paste(state, ".cdp10", sep = ""), envir = parent.frame())
         }
         temp.cdp <- get(paste(state, ".cdp10", sep = ""))
         
@@ -29,7 +29,7 @@ city<-function (name = NULL, state = NULL, statefips = FALSE, sp.object = NULL, 
         }
         out <- temp.cdp[temp, ]
         if (is.null(proj) == FALSE) {
-            require(rgdal)
+            requireNamespace("rgdal")
             out <- spTransform(out, proj)
         }
         out

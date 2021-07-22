@@ -18,7 +18,7 @@ install.blkgrp(x)
 %%  ~~ If necessary, more details than the description above ~~
 %}
 \references{
-Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{http://www.jstatsoft.org/v37/i06/}. 
+Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{https://www.jstatsoft.org/v37/i06/}. 
 }
 \author{
 Zack W Almquist

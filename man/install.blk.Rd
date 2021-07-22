@@ -19,7 +19,7 @@ install.blk(x)
 %%  ~~ If necessary, more details than the description above ~~
 %}
 \references{
-Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{http://www.jstatsoft.org/v37/i06/}. 
+Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{https://www.jstatsoft.org/v37/i06/}. 
 }
 \author{
 Zack W Almquist
@@ -35,5 +35,5 @@ install.blk("osx")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{block}
+

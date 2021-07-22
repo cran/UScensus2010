@@ -1,7 +1,8 @@
 
 install.blkgrp<-function(x){
 
-if(x=="osx" | x=="linux"){install.packages("UScensus2010blkgrp", repos="http://lakshmi.calit2.uci.edu/census2000/R/",type="source")
+if(x=="osx" | x=="linux"){
+  utils::install.packages("UScensus2010blkgrp", repos="http://R-Forge.R-project.org")
 	return()
 	}
 
@@ -9,7 +10,7 @@ if(x=="windows"){
 	rVer<-as.numeric(R.Version()$minor)
 	
 	if(rVer>=11){
-		install.packages("UScensus2010blkgrp", repos="http://lakshmi.calit2.uci.edu/census2000/R/",type="source")
+	  utils::install.packages("UScensus2010blkgrp", repos="http://R-Forge.R-project.org")
 		return()
 		}else{stop("Not Available Yet")}
 }

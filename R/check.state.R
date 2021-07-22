@@ -1,7 +1,7 @@
 
 check.state<-function(state,statefips=FALSE){
 check.state.aux<-function(state,statefips){
-data("countyfips",envir = parent.frame())
+utils::data("countyfips",envir = parent.frame())
 assign("temp",countyfips)
 assign("countyfips",temp)
 

@@ -5,9 +5,9 @@ MSA.aux <-
 function(msafips=NULL,msaname=NULL,state=NULL,statefips=FALSE,level=c("tract","blk","blkgrp"),proj=NULL){
 
 ##########Load and bind data
-	data("MSAfips",envir = parent.frame())
-	data("MSAnames",envir = parent.frame())
-	data("countyfips",envir = parent.frame())
+  utils::data("MSAfips",envir = parent.frame())
+  utils::data("MSAnames",envir = parent.frame())
+  utils::data("countyfips",envir = parent.frame())
 	assign("temp",countyfips)
 	assign("countyfips",temp)
 	assign("temp",MSAfips)
@@ -86,7 +86,7 @@ if(!is.null(msafips)){
 
 ##Check proj
 if(is.null(proj)==FALSE){
-	require(rgdal)
+  requireNamespace("rgdal")
 	out<-spTransform(out,proj)
 }
 ##Check proj

@@ -18,10 +18,10 @@ County names and FIPS codes for use in \code{\link{county}}
   }
 }
 \details{
-This file lists all counties and equivalent areas in the United States defined as of 2000. Built from \url{http://www.census.gov/tiger/tms/gazetteer/county2k.txt}. This is primarily for use in \code{\link{county}}.
+This file lists all counties and equivalent areas in the United States defined as of 2000. Built from \url{https://www2.census.gov/programs-surveys/popest/technical-documentation/methodology/1990-2000/90s-fips.txt}. This is primarily for use in \code{\link{county}}.
 }
 \source{
-\url{http://www.census.gov/tiger/tms/gazetteer/county2k.txt}
+\url{https://www2.census.gov/programs-surveys/popest/technical-documentation/methodology/1990-2000/90s-fips.txt}
 }
 %\references{}
 \examples{

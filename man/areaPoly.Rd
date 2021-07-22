@@ -25,7 +25,7 @@ a numeric vector.
 }
 \references{
 
-Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{http://www.jstatsoft.org/v37/i06/}. \cr \cr
+Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{https://www.jstatsoft.org/v37/i06/}. \cr \cr
 
 Also see: \link[sp:SpatialPolygonsDataFrame]{SpatialPolygonsDataFrame}
 }
@@ -51,7 +51,13 @@ data(oregon.county10)
 den00<-oregon.county10$P0010001/areaPoly(oregon.county10)
 oregon.county10$den00<-den00
 
-choropleth(oregon.county10,"den00",color = list(fun = "rainbow", attr = list(4)),main="2010 US Counties \n Oregon",type="plot",border="transparent")
+choropleth(oregon.county10,"den00",
+
+color = list(fun = "rainbow", 
+
+attr = list(4)),
+
+main="2010 US Counties \n Oregon",type="plot",border="transparent")
 }
 
 
@@ -60,5 +66,4 @@ choropleth(oregon.county10,"den00",color = list(fun = "rainbow", attr = list(4))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{area}

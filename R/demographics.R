@@ -17,7 +17,7 @@ state2 <- state
 dem.fun <- function(dem, state, level) {
             require(paste("UScensus2010", level, sep = ""), character.only = TRUE)
             x <- paste(state,".", level,"10", sep = "")
-            data(list = x, envir = parent.frame())
+            utils::data(list = x, envir = parent.frame())
             temp <- get(x)
             out <- temp@data[,dem]
             out<-matrix(out,nrow=NROW(temp@data),ncol=length(dem))
@@ -28,7 +28,7 @@ dem.fun <- function(dem, state, level) {
 
 if(level!="msa"){
      require(paste("UScensus2010", level, sep = ""), character.only = TRUE) 
-     data(list=paste(state,".",level,"10",sep=""))
+     utils::data(list=paste(state,".",level,"10",sep=""))
      temp<-get(paste(state,".",level,"10",sep=""))
 }
 

@@ -21,14 +21,14 @@ nameTofips(name, state, type = c("county", "msa"), statefips = FALSE)
 Returns a character string.
 }
 \references{
-Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{http://www.jstatsoft.org/v37/i06/}. \cr \cr
+Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{https://www.jstatsoft.org/v37/i06/}. \cr \cr
 
 Census 2010 Summary File 1 [name of state1 or United States]/prepared by the U.S. Census 
 Bureau, 2011. \cr
-\url{http://www.census.gov/prod/cen2000/doc/sf1.pdf}
+\url{https://www.census.gov/prod/cen2000/doc/sf1.pdf}
 }
 \author{
-Zack W. Almquist \email{almquist@uci.edu}
+Zack W. Almquist \email{zalmquist@uw.edu}
 }
 
 \examples{
@@ -42,5 +42,4 @@ nameTofips("orange","ca","county")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{fips}

@@ -12,22 +12,22 @@ This package helps the user handle the spatial and demographic data available in
 \tabular{ll}{
 Package: \tab UScensus2010\cr
 Type: \tab Package\cr
-Version: \tab 0.1\cr
-Date: \tab 2011-18-11\cr
+Version: \tab 0.2\cr
+Date: \tab 2021-07-21\cr
 License: \tab GPL Version 2 or newer\cr
 LazyLoad: \tab yes\cr
 }
 
 }
 \author{
-Zack W Almquist<almquist@uci.edu> \cr
-Maintainer: Zack W Almquist <almquist@uci.edu>
+Zack W Almquist<zalmquist@uw.edu> \cr
+Maintainer: Zack W Almquist <zalmquist@uw.edu>
 }
 \note{
 If you use this package and/or software manual in your work, a citation would be appreciated.  References to the current versions are:\cr
 \cr
 Preferred Citation for the Package: \cr \cr
-Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2010 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{http://www.jstatsoft.org/v37/i06/}. \cr \cr
+Zack W. Almquist (2010). US Census Spatial and Demographic Data in R: The UScensus2010 Suite of Packages. Journal of Statistical Software, 37(6), 1-31. \url{https://www.jstatsoft.org/v37/i06/}. \cr \cr
 
 Package Citation: \cr \cr
 Zack W Almquist (2010). UScensus2010: US Census 2010 Suite of R Packages. R package version 1.00. \cr

@@ -17,10 +17,10 @@ MSA names and FIPS codes for use in  \code{\link{MSA}}
   }
 }
 \details{
-Metropolitan areas and components, 1999. Built from \url{http://www.census.gov/population/estimates/metro-city/99mfips.txt}. This is primarily for use in \code{\link{MSA}}.
+Metropolitan areas and components, 1999. Built from \url{https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/1999/historical-delineation-files/99mfips.txt}. This is primarily for use in \code{\link{MSA}}.
 }
 \source{
-\url{http://www.census.gov/population/estimates/metro-city/99mfips.txt}
+\url{https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/1999/historical-delineation-files/99mfips.txt}
 }
 %\references{
 %%  ~~ possibly secondary sources and usages ~~

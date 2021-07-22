@@ -4,7 +4,7 @@ function(fips=NULL,name=NULL,state,level=c("tract","blk","blkgrp"),statefips=FAL
 county.aux <-
 function(fips=NULL,name=NULL,state,level=c("tract","blk","blkgrp"),statefips=FALSE,sp.object=NULL,proj=NULL){
 
-data("countyfips",envir = parent.frame())
+utils::data("countyfips",envir = parent.frame())
 assign("temp",countyfips)
 assign("countyfips",temp)
 ############Check state
@@ -25,7 +25,7 @@ if(is.null(sp.object)==FALSE){
 	temp<-sp.object
 	}else{
 	x<-paste(state,".",level,"10",sep="")
-	data(list=x,envir = parent.frame())
+	utils::data(list=x,envir = parent.frame())
 	temp<-get(x)
 }
 
@@ -107,7 +107,7 @@ out<-build.county.shape(substr(fips,3,5),state,sp.object)
 
 ## Check proj
 if(is.null(proj)==FALSE){
-	require(rgdal)
+  requireNamespace("rgdal")
 	out<-spTransform(out,proj)
 }
 ##check proj
